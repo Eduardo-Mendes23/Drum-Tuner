@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #f39c12;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+button {
+  padding: 15px 25px;
+  margin: 10px;
+  background: #f39c12;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 300px;
+}
+
+#controls {
+  margin: 20px;
+}
+
+.piece {
+  margin: 15px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px;
+  width: 80%;
+  max-width: 250px;
+  border-radius: 6px;
+  border: 1px solid #555;
+}
+
+canvas {
+  margin-top: 20px;
+  background: #222;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 350px;
+}

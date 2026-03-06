@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Afinador de Bateria Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Afinador de Bateria Online</h1>
+  <button id="startBtn">Iniciar Afinador</button>
+  
+  <div id="controls">
+    <h2>Configurações de Afinação</h2>
+    <div id="pieces"></div>
+    <button id="addPieceBtn">Adicionar peça</button>
+    <button id="saveBtn">Salvar afinações</button>
+    <button id="loadBtn">Carregar afinações</button>
+  </div>
+
+  <div id="output">
+    <p>Frequência detectada: <span id="freq">--</span> Hz</p>
+    <p>Status: <span id="status">Aguardando...</span></p>
+    <canvas id="meter" width="300" height="150"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
